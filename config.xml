@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "com.speed_game"
+        versionCode="10"
+        version = "1.0.0">
+        <gap:platform name="android" />
+        
+    
+
+    <name>Speed Game</name>
+
+    <description>
+	This is a rapid reaction game app.
+    </description>
+        
+        <icon src="click-here-button.jpg"/>
+
+    <author email="adajbull@iupui.edu">
+        Adam Bullock
+    </author>
+	
+	<gap:plugin name="com.phonegap.plugins.facebookconnect">
+    <param name="APP_ID" value="..." />
+    <param name="APP_NAME" value="..." />
+	</gap:plugin>
+	
+	<gap:plugin name="com.ohh2ahh.plugins.appavailability" />
+	
+	<gap:plugin name="nl.x-services.plugins.launchmyapp">
+    <param name="URL_SCHEME" value="..." />
+	</gap:plugin>
+
+</widget>

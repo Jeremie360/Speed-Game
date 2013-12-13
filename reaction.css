@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#btnstyl {
+	
+	padding-left:450px;
+	padding-top:250px;
+
+}
+
+#btnattrib {
+	
+	background-color:#03C;
+	color:#FFF;
+	border-color:#000;
+	height:50px; 
+	width:100px;
+
+}
+
+#background {
+	
+	background-color:#09F;
+
+}
